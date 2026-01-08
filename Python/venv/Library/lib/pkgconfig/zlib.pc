@@ -1,0 +1,13 @@
+prefix=E:/GenAI/Python/vend/Library
+exec_prefix=E:/GenAI/Python/vend/Library
+libdir=E:/GenAI/Python/vend/Library/lib
+sharedlibdir=E:/GenAI/Python/vend/Library/lib
+includedir=E:/GenAI/Python/vend/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
