@@ -6,8 +6,8 @@
   "depends": [
     "ca-certificates",
     "ucrt >=10.0.20348.0",
-    "vc >=14.2,<15",
-    "vc14_runtime >=14.29.30133"
+    "vc14_runtime >=14.29.30133",
+    "vc >=14.2,<15"
   ],
   "extracted_package_dir": "C:\\Users\\kunta\\anaconda3\\pkgs\\openssl-3.0.18-h543e019_0",
   "files": [
@@ -192,7 +192,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\\\miniconda3\\\\conda-bld\\\\openssl_1759488976042\\\\_h_env",
         "sha256": "dd9069600315dda982c3f57a47b9a750eb18f21917714281d3e9720165153413",
-        "sha256_in_prefix": "437ba6228e484c91ea555dd1cb72fa5a2d90a542d264fe65c7dfb6528802c7e6",
+        "sha256_in_prefix": "61bfacbcb1c93b33536b3286dffbe1e5da1c8b33b55f57ab16196e3e440e612b",
         "size_in_bytes": 7316
       },
       {
@@ -1231,7 +1231,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/miniconda3/conda-bld/openssl_1759488976042/_h_env",
         "sha256": "662a827a668f1c8f7184072865599fd52f75b91a1becb3ceb851702f8d7b55a9",
-        "sha256_in_prefix": "4c57af88fd3527028d02928f103dce486f4ea2d77781bcf7c0e054ab07fffab2",
+        "sha256_in_prefix": "3c99b62018d44022d6b6bef4e82761cf30d5e4c0e2dff216332ca18477bf57a4",
         "size_in_bytes": 332
       },
       {
@@ -1240,7 +1240,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/miniconda3/conda-bld/openssl_1759488976042/_h_env",
         "sha256": "9124bd732b42263f94369794f065e418d66ba230a828d775345598b708cf63c7",
-        "sha256_in_prefix": "3afa66d5823907b5c005762536cf05c341e7359516207e84e91d3fb082cfd01d",
+        "sha256_in_prefix": "e404fc3c3917dbde09a8d1841b6aa57e33f3d09ba082c659f4e5e1f45ad0d0ff",
         "size_in_bytes": 332
       },
       {
@@ -1249,7 +1249,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/miniconda3/conda-bld/openssl_1759488976042/_h_env",
         "sha256": "67d9276d3d64f6085b3e57ae1b01223d864bbf20a785df062a5e68e1f267bacf",
-        "sha256_in_prefix": "680398c10248a6bdcf132c4a0794a57c3acc2c8bdb1345d3e9c7bfe1f09c451c",
+        "sha256_in_prefix": "88ea77c9605988205939c790f41fd28fec1854430debdcfc104e245753665d4e",
         "size_in_bytes": 285
       },
       {

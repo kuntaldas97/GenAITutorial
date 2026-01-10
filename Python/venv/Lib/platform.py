@@ -10,7 +10,8 @@
 """
 #    This module is maintained by Marc-Andre Lemburg <mal@egenix.com>.
 #    If you find problems, please submit bug reports/patches via the
-#    Python bug tracker (http://bugs.python.org) and assign them to "lemburg".
+#    Python issue tracker (https://github.com/python/cpython/issues) and
+#    mention "@malemburg".
 #
 #    Still needed:
 #    * support for MS-DOS (PythonDX ?)
@@ -347,7 +348,8 @@ _WIN32_CLIENT_RELEASES = [
 ]
 
 _WIN32_SERVER_RELEASES = [
-    ((10, 1, 0), "post2022Server"),
+    ((10, 1, 0), "post2025Server"),
+    ((10, 0, 26100), "2025Server"),
     ((10, 0, 20348), "2022Server"),
     ((10, 0, 17763), "2019Server"),
     ((6, 4, 0), "2016Server"),
@@ -458,7 +460,12 @@ def win32_ver(release='', version='', csd='', ptype=''):
 def _mac_ver_xml():
     fn = '/System/Library/CoreServices/SystemVersion.plist'
     if not os.path.exists(fn):
-        return None
+        if 'SDKROOT' in os.environ:
+            fn = os.environ['SDKROOT'] + fn
+            if not os.path.exists(fn):
+                return None
+        else:
+            return None
 
     try:
         import plistlib

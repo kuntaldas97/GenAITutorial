@@ -1,8 +1,8 @@
-prefix=E:/GenAI/Python/vend/Library
-exec_prefix=E:/GenAI/Python/vend/Library
-libdir=E:/GenAI/Python/vend/Library/lib
-sharedlibdir=E:/GenAI/Python/vend/Library/lib
-includedir=E:/GenAI/Python/vend/Library/include
+prefix=E:/GenAI/Python/venv/Library
+exec_prefix=E:/GenAI/Python/venv/Library
+libdir=E:/GenAI/Python/venv/Library/lib
+sharedlibdir=E:/GenAI/Python/venv/Library/lib
+includedir=E:/GenAI/Python/venv/Library/include
 
 Name: zlib
 Description: zlib compression library

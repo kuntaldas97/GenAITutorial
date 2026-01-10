@@ -526,7 +526,7 @@ def _load_module_shim(self, fullname):
 
     """
     msg = ("the load_module() method is deprecated and slated for removal in "
-          "Python 3.12; use exec_module() instead")
+           "Python 3.15; use exec_module() instead")
     _warnings.warn(msg, DeprecationWarning)
     spec = spec_from_loader(fullname, self)
     if fullname in sys.modules:
@@ -824,10 +824,16 @@ def _module_repr_from_spec(spec):
     """Return the repr to use for the module."""
     name = '?' if spec.name is None else spec.name
     if spec.origin is None:
-        if spec.loader is None:
+        loader = spec.loader
+        if loader is None:
             return f'<module {name!r}>'
+        elif (
+            _bootstrap_external is not None
+            and isinstance(loader, _bootstrap_external.NamespaceLoader)
+        ):
+            return f'<module {name!r} (namespace) from {list(loader._path)}>'
         else:
-            return f'<module {name!r} (namespace) from {list(spec.loader._path)}>'
+            return f'<module {name!r} ({loader!r})>'
     else:
         if spec.has_location:
             return f'<module {name!r} from {spec.origin!r}>'

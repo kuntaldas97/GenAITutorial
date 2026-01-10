@@ -4,10 +4,10 @@
   "channel": "https://repo.anaconda.com/pkgs/main/win-64",
   "constrains": [],
   "depends": [
-    "libexpat 2.7.3 h885b0b7_4",
     "ucrt >=10.0.20348.0",
+    "vc14_runtime >=14.29.30133",
     "vc >=14.2,<15",
-    "vc14_runtime >=14.29.30133"
+    "libexpat 2.7.3 h885b0b7_4"
   ],
   "extracted_package_dir": "C:\\Users\\kunta\\anaconda3\\pkgs\\expat-2.7.3-h885b0b7_4",
   "files": [

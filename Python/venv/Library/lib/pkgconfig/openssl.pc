@@ -1,4 +1,4 @@
-prefix=E:/GenAI/Python/vend/Library 
+prefix=E:/GenAI/Python/venv/Library 
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

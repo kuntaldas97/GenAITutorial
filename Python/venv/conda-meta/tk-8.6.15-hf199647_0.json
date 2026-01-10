@@ -5,8 +5,8 @@
   "constrains": [],
   "depends": [
     "ucrt >=10.0.20348.0",
-    "vc >=14.2,<15",
     "vc14_runtime >=14.29.30133",
+    "vc >=14.2,<15",
     "zlib >=1.2.13,<2.0.0a0"
   ],
   "extracted_package_dir": "C:\\Users\\kunta\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0",
@@ -7340,7 +7340,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\b\\abs_933obpeb5t\\croot\\tk_1755243793210\\_h_env",
         "sha256": "07a314b5b4649c9bc6e6cdc3b33ab5ea824e84cd52a5d468fa2eeeea107cc571",
-        "sha256_in_prefix": "7a4aaf9cd3d7d9398e5dd0bcebd4285d434119fe58e6316fe050eb3179d4e8b9",
+        "sha256_in_prefix": "cedb67c21b1f962b3200b0bf5af267f6c4f22ecc19a6f72536a37c8a577a6fdf",
         "size_in_bytes": 8210
       },
       {
