@@ -1,0 +1,6 @@
+Hello World!
+Welcome to python programming.
+Append Operation taking place.
+First line
+Second line
+Third line
